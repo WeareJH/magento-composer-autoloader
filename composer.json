@@ -1,9 +1,7 @@
 {
     "name": "jhhello/magento_composer_autoloader",
+    "type":"magento-module",
     "description": "Magento Autoloader patch to require Composer's autoloader",
-    "require-dev": {
-    },
-
     "authors": [
         {
             "name": "Aydin Hassan",
@@ -17,7 +15,11 @@
             "url": "http://packages.firegento.com"
         }
     ],
-
+    "require-dev": {
+    },
+    "require":{
+        "magento-hackathon/magento-composer-installer":"*"
+    },
     "extra": {
         "map": [
             ["src/code",    "app/code/local/Jh/Composerautoloader"]
