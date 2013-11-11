@@ -19,7 +19,7 @@
     },
     "extra": {
         "map": [
-            ["src/code",    "app/code/local"]
+            ["src/code/Varien", "app/code/local/Varien"]
         ]
     }
 }
