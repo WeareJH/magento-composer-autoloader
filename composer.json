@@ -1,0 +1,26 @@
+{
+    "name": "jhhello/magento_composer_autoloader",
+    "description": "Magento Autoloader patch to require Composer's autoloader",
+    "require-dev": {
+    },
+
+    "authors": [
+        {
+            "name": "Aydin Hassan",
+            "email": "aydin@wearejh.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        }
+    ],
+
+    "extra": {
+        "map": [
+            ["src/code",    "app/code/local/Jh/Composerautoloader"]
+        ]
+    }
+}
