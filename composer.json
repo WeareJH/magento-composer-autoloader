@@ -17,9 +17,6 @@
     ],
     "require-dev": {
     },
-    "require":{
-        "magento-hackathon/magento-composer-installer":"*"
-    },
     "extra": {
         "map": [
             ["src/code",    "app/code/local/Jh/Composerautoloader"]
