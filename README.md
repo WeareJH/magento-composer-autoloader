@@ -10,7 +10,7 @@ Require this project in your Magento build. If you have used the [Magento Skelet
 
 ```
 $ cd project-root
-$ ./composer.phar require "aydinhassan/magento-skeleton" 
+$ ./composer.phar require "jhhello/magento_composer_autoloader"
 ```
 
 When asked for a version, specify "0.1" or the latest tag of the project.
