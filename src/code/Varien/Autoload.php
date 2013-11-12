@@ -50,7 +50,7 @@ class Varien_Autoload
         //directories where Composer Vendor dir may be
         $possibleDirectories = array(
             sprintf('%s/vendor', $bp),      //magento root
-            '../vendor'                     //up one dir
+            sprintf('%s/../vendor', $bp),   //up one dir
         );
 
         //loop possible directories and require the first autload.php that it found, break after
