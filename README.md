@@ -13,7 +13,7 @@ $ cd project-root
 $ ./composer.phar require "jhhello/magento_composer_autoloader"
 ```
 
-When asked for a version, specify "0.1" or the latest tag of the project.
+When asked for a version, specify "1.0.0" or the latest tag of the project.
 
 After the autoloader patcher has been installed you can start adding external projects. We will use [Gaufrette](v) as an example. 
 
