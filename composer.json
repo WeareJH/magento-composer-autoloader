@@ -1,5 +1,5 @@
 {
-    "name": "jhhello/magento_composer_autoloader",
+    "name": "jhhello/magento-composer-autoloader",
     "type":"magento-module",
     "description": "Magento Autoloader patch to require Composer's autoloader",
     "authors": [
