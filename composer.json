@@ -8,14 +8,11 @@
             "email": "aydin@wearejh.com"
         }
     ],
-    "minimum-stability": "dev",
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "http://packages.firegento.com"
-        }
-    ],
     "require-dev": {
+        "phpdocumentor/phpdocumentor": "v2.2.0"
+    },
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
     },
     "extra": {
         "map": [
