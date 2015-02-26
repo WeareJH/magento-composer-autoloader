@@ -1,9 +1,10 @@
 <?php
 
 /**
- *
  * Be aware that this file may cause conflicts when upgrading to newer Magento versions.
- * It should be simple to fix if MAgento makes any changes to the Autoloader however.
+ * It should be simple to fix if Magento makes any changes to the Autoloader however.
+ *
+ * This is mostly a C+P of Magento Autoloader, with Composer addition
  *
  * Classes source autoload
  *
@@ -54,10 +55,9 @@ class Varien_Autoload
         );
 
         //loop possible directories and require the first autload.php that it found, break after
-        //if you have more than one vendor dir in diff locations, wtf?
-        foreach($possibleDirectories as $dir) {
+        foreach ($possibleDirectories as $dir) {
             $autoloader = $dir . '/autoload.php';
-            if(is_readable($autoloader)) {
+            if (is_readable($autoloader)) {
                 require_once $autoloader;
                 //break on successful require
                 break;

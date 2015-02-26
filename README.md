@@ -8,9 +8,9 @@ A module to overwrite Magento's autoloader to include a step to require Composer
 
 Require this project in your Magento build. If you have used the [Magento Skeleton](https://bitbucket.org/jhhello/jh_magento_skeleton/src) then you can omit this step as it it already included.
 
-```
+```shell
 $ cd project-root
-$ ./composer.phar require "jhhello/magento_composer_autoloader"
+$ composer require "jhhello/magento_composer_autoloader"
 ```
 
 When asked for a version, specify "1.0.0" or the latest tag of the project.
@@ -20,9 +20,9 @@ After the autoloader patcher has been installed you can start adding external pr
 
 ### Install Required Library
 
-```
+```shell
 $ cd project-root
-$ ./composer.phar require knplabs/gaufrette
+$ composer require knplabs/gaufrette
 ```
 
 When asked for a version specify: "*" or the specific version you want.
@@ -31,16 +31,14 @@ When asked for a version specify: "*" or the specific version you want.
 
 In a model somewhere (before class declaration):
 
-```
-:::php
+```php
 use Gaufrette\Filesystem;
 use Gaufrette\Adapter\Local as LocalAdapter;
 ```
 
 In a function somewhere:
 
-```
-:::php
+```php
 $adapter 		= new LocalAdapter('/var/media');
 $filesystem 	= new Filesystem($adapter);
 

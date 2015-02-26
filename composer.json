@@ -1,5 +1,5 @@
 {
-    "name": "jhhello/magento-composer-autoloader",
+    "name": "wearejh/magento-composer-autoloader",
     "type":"magento-module",
     "description": "Magento Autoloader patch to require Composer's autoloader",
     "authors": [
@@ -8,9 +8,6 @@
             "email": "aydin@wearejh.com"
         }
     ],
-    "require-dev": {
-        "phpdocumentor/phpdocumentor": "v2.2.0"
-    },
     "require": {
         "magento-hackathon/magento-composer-installer": "*"
     },
