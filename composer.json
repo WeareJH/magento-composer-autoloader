@@ -13,7 +13,7 @@
     },
     "extra": {
         "map": [
-            ["src/code/Varien", "app/code/local/Varien"]
+            ["src/code/Varien/Autoload.php", "app/code/local/Varien/Autoload.php"]
         ]
     }
 }
